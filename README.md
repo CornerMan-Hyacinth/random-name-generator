@@ -5,7 +5,7 @@ A JavaScript library for generating random names based on different cultural cat
 ## Installation
 
 ```bash
-npm install random-name-generator
+npm i generate-name-auto
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ console.log(names);
 ## API Reference
 
 ```javascript
-generate(apiKey, count, useMiddleName);
+generate(options);
 ```
 
 Generates random names.
@@ -66,7 +66,7 @@ generateWithUsage(options);
 Generates random names with a usage provision for a specified language/culture.
 
 - apiKey (string): Your 'Behind the Name' API key for accessing the name generation service.
-- usage (string): The usage of the names to be generated, like 'eng'.
+- usage (string): The usage of the names to be generated, like 'eng'. Visit the './usageData.js' file to see those that are available.
 - responses (number): The number of names to generate.
 - surname (string): Specify whether to include surnames. Values: 'yes' or 'no'.
 - gender(string): Specify which gender names to be returned. Values: 'm' or 'f'
