@@ -1,5 +1,5 @@
 {
-  "name": "random-name-generator",
+  "name": "generate-name-auto",
   "version": "1.0.0",
   "description": "A JavaScript library for generating a random name",
   "main": "index.js",
